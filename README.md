@@ -9,7 +9,7 @@ This project demonstrates a serverless architecture that efficiently generates, 
 - **Flexible Log Querying**: Athena queries the logs stored in S3, providing flexibility in data analysis.
 
 ## Architecture
-![Architecture Diagram](./architecture/architecture_diagram.PNG)
+![Architecture Diagram](./architecture/architecture_diagram.png)
 
 ### Main Components:
 1. **Lambda for Log Generation**: Generates logs and sends them to CloudWatch.
