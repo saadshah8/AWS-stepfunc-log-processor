@@ -8,8 +8,8 @@ logger.setLevel(logging.INFO)
 def lambda_handler(event, context):
     glue = boto3.client('glue')
 
-    database_name = 'logs_database'
-    table_name = 'logs_table'
+    database_name = 'logs_database' #change accordingly
+    table_name = 'logs_table' #change accordingly
     
     try:
         metadata = event['metadata']
